@@ -1,0 +1,54 @@
+body{
+    background-color: aqua;
+}
+.c1{
+    text-align: center; 
+    margin-top: 70px; 
+    margin-bottom: 70px; 
+    line-height: 24px; 
+    font-weight: 600; 
+    font-size: 36px;
+    color: rgb(11, 99, 72);
+}
+.c2{
+    background-color: white;
+    border-radius: 10px;
+}
+.container i{
+    position: absolute;
+    color: rgb(111, 167, 139);
+}
+.icon{
+    padding-top: 12px;
+    padding-left: 8px;
+    color: rgb(186, 238, 222);
+}
+.len{
+    width: 90px;
+}
+.color{
+    color: white;
+    background-color: rgb(11, 99, 72);
+}
+label{
+    color: rgb(11, 99, 72);
+    font-weight: 600;
+}
+input{
+    background-color: rgb(186, 235, 216);
+}
+.btn-margin{
+    margin-left: 30px;
+}
+
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+
+.c3{
+    background-color: rgb(11, 99, 72);
+    color: white;
+    border-radius: 10px;
+}

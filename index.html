@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/de9df9f3c7.js" crossorigin="anonymous"></script>
+    <title>SPLI TTER</title>
+</head>
+
+<body>
+
+    <div class="container c1" style="min-width: 1024px;">
+        <p style="letter-spacing: 6px;">SPLI</p>
+        <p style="letter-spacing: 4px;">TTER</p>
+    </div>
+
+    <div class="container c2"  style="min-width: 1135px; margin:auto;">
+        <div class="row" style="padding: 20px;">
+            <div class="col-1">
+            </div>
+            <div class="col-4">
+                <div class="mb-3">
+                    <label for="bill" class="form-label">Bill</label>
+                    <div>
+                        <i class="fas fa-dollar-sign icon"></i>
+                        <input type="number" class="form-control" id="bill" name="bill" dir="rtl" placeholder="0" style="background-color:rgb(186, 235, 216);">
+                    </div>
+                </div><br>
+                <div class="mb-3">
+                    <label for="nOF" class="form-label">Number of People</label>
+                    <div>
+                        <i class="fas fa-user icon"></i>
+                        <input type="number" class="form-control" value="" id="persons" dir="rtl" placeholder="0" style="background-color:rgb(186, 235, 216);">
+                    </div>
+                </div><br>
+                <div class="row" style="min-width: 1024px;">
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="tip" class="form-label">Select Tip  %</label><br>
+                            <button type="button" class="btn color len" onclick="fun(5)">5%</button>
+                            <button type="button" class="btn color len btn-margin" onclick="fun(10)">10%</button>
+                            <button type="button" class="btn color len btn-margin" onclick="fun(15)">15%</button> <br><br>
+                            <button type="button" class="btn color len" onclick="fun(25)">25%</button>
+                            <button type="button" class="btn color len btn-margin" onclick="fun(50)">50%</button>
+                            <input type="number" id="custom" class="form-control btn d-inline len btn-margin" id="#" dir="rtl" placeholder="Custom" style="background-color:rgb(186, 235, 216);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+            </div>
+            <div class="col-4 c3 p-4" style="width: 400px;">
+                <pre class="lead">Tip Amount             <i style="padding-top: 5px;" class="fas fa-dollar-sign"></i>  <span id="tip_amt">0.00</span>
+<span style="font-size: 15px; color: rgb(190, 210, 229);">/ person</span>
+                </pre>
+                
+                <pre class="lead">Total                  <i style="padding-top: 5px;" class="fas fa-dollar-sign"></i>  <span id="totl">0.00</span>
+<span style="font-size: 15px; color: rgb(190, 210, 229);">/ person</span>
+                </pre><br><br><br><br>
+                <a href="task1.html" class="d-block btn" style="background-color:rgb(186, 235, 216);">Reset</a>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
